@@ -1,0 +1,7 @@
+The code in this repository is (c) by Kamaro Engineering e.V., subject to the file
+LICENSE.kamaro .
+
+The neural network training code has been derived from Pytorch's official tutorial
+https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html
+written by Nathan Inkawhich. That code is (c) by the Pytorch contributors and made
+available under the terms of LICENSE.pytorch .

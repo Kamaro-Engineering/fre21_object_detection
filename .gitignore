@@ -1,0 +1,5 @@
+resources/*.onnx
+__pycache__
+.ipynb_checkpoints
+gazebo_data
+.vscode
