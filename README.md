@@ -8,7 +8,7 @@
   <a href="https://opensource.org/licenses/BSD-3-Clause"><img src="https://img.shields.io/badge/License-BSD%203--Clause-blue.svg" alt="License: GPL v3"/></a>
 </p>
 <p align="middle">
-  This package contains the code used by Kamaro Engineering e.V. for the [Task 3 (object detection)](https://web.archive.org/web/20210617220835/https://www.fieldrobot.com/event/index.php/contest/task-3/) on the virtual Field Robot Event 2021 (June 8-10).
+  This package contains the code used by Kamaro Engineering e.V. for the <a href="https://web.archive.org/web/20210617220835/https://www.fieldrobot.com/event/index.php/contest/task-3/">Task 3 (object detection)</a> on the virtual Field Robot Event 2021 (June 8-10).
 </p>
 <p align="middle">
   This package assumes you are working on <b>ROS Noetic</b>. Older versions of ROS will be incompatible, since this package uses Python 3.
