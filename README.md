@@ -49,9 +49,9 @@ You will need to download it, or create your own dataset, in order to train the 
 There are two folders:
 * `images` - contains data (640x480 pixels, RGB, PNG)
 * `labels` - files have the same names as in `images`, with relevant areas painted in
-  * red (`#ff0000`) to mark litter
+  * red (`#ff0000`) to mark weeds
   * green (`#00ff00`) to mark maize plants
-  * blue (`#0000ff`) to mark weeds
+  * blue (`#0000ff`) to mark litter
 
 The data loader can be found in `gazebo_screenshot_dataset.py`. Some tolerance is applied to the color values. Other colors are ignored and interpreted as the background class.
 
