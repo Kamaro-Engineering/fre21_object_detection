@@ -11,6 +11,13 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
 )
 
+###################################
+## catkin specific configuration ##
+###################################
+catkin_package(CATKIN_DEPENDS
+  rospy
+)
+
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
 install(PROGRAMS
