@@ -19,7 +19,7 @@
 We use camera data and perform [semantic segmentation](https://en.wikipedia.org/wiki/Image_segmentation#Groups_of_image_segmentation) on camera images. Each pixel is assigned a class (background/maize/weed/litter). If a sufficient number of pixels in the current image belong to either the "weed" or the "litter" class, this is counted as a detection.
 
 ## How to use
-Our fully trained network used in Task 3 is available in the ONNX format [on our NextCloud](https://nextcloud.kamaro-engineering.de/s/zNkaM3Nw7eA6Mi7). 
+Our fully trained network used in Task 3 is available in the ONNX format [on our NextCloud](https://nextcloud.kamaro-engineering.de/s/G4YY6bqaJKDMrYw). 
 
 If you want to use it right away, place it into the `resources/` folder in this repository with the filename `net.onnx`.
 
