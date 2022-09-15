@@ -19,7 +19,7 @@
 We use camera data and perform [semantic segmentation](https://en.wikipedia.org/wiki/Image_segmentation#Groups_of_image_segmentation) on camera images. Each pixel is assigned a class (background/maize/weed/litter). If a sufficient number of pixels in the current image belong to either the "weed" or the "litter" class, this is counted as a detection.
 
 ## How to use
-Our fully trained network used in Task 3 is available in the ONNX format [on our NextCloud](https://nextcloud.kamaro-engineering.de/s/G4YY6bqaJKDMrYw). 
+Our fully trained network used in Task 3 is available in the ONNX format [on our NextCloud](https://nextcloud.kamaro-engineering.de/s/j2FXbdBSsGS69jt). 
 
 If you want to use it right away, place it into the `resources/` folder in this repository with the filename `net.onnx`.
 
@@ -42,7 +42,7 @@ Subscriptions:
 ```
 
 ## Dataset
-Our dataset containing 192 hand-labeled images is available [on our NextCloud](https://nextcloud.kamaro-engineering.de/s/8d8wFi5m3CgpoGm).
+Our dataset containing 192 hand-labeled images is available [on our NextCloud](https://nextcloud.kamaro-engineering.de/s/kJpxCYNzA877pSy).
 You will need to download it, or create your own dataset, in order to train the network. Place the downloaded files into the `gazebo_data/` directory in the root of this repository, containing the `images` and `labels` subdirectories.
 
 ### Dataset format
